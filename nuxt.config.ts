@@ -64,5 +64,6 @@ export default {
       ]
     },
     vendor: [ 'babel-polyfill' ],
-  }
+  },
+  srcDir: 'src/'
 }
