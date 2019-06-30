@@ -1,11 +1,18 @@
-<template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two" />
-    <div class="Triangle Triangle--one" />
-    <div class="Triangle Triangle--three" />
-    <div class="Triangle Triangle--four" />
+<template lang="pug">
+  .VueToNuxtLogo
+    .Triangle.Triangle--two
+    .Triangle.Triangle--one
+    .Triangle.Triangle--three
+    .Triangle.Triangle--four
   </div>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator';
+
+@Component
+export default class Logo extends Vue {}
+</script>
 
 <style>
 .VueToNuxtLogo {

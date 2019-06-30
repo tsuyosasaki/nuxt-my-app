@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "experimentalDecorators": true,
     "types": [
       "@types/node",
       "@nuxt/vue-app"
